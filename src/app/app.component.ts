@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {StocksComponent} from './stocks.components'
+import {HighLightDirective} from './highlight.directive'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'adds';
+  today = new Date()
 }
